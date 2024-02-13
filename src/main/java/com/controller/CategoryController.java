@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/categories")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://budget-planner-f424865111f8.herokuapp.com")
 public class CategoryController {
 
     private final CategoryService categoryService;

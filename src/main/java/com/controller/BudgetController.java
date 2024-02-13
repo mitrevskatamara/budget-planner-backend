@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @AllArgsConstructor
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://budget-planner-f424865111f8.herokuapp.com")
 @RequestMapping("/api/budget")
 public class BudgetController {
 
