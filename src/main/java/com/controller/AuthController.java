@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin("https://budget-planner-f424865111f8.herokuapp.com")
+@CrossOrigin("*")
 @AllArgsConstructor
 public class AuthController {
 

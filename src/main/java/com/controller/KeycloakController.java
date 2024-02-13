@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/keycloak")
-@CrossOrigin("https://budget-planner-f424865111f8.herokuapp.com")
+@CrossOrigin("*")
 @AllArgsConstructor
 public class KeycloakController {
 

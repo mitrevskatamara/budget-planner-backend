@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/users")
-@CrossOrigin("https://budget-planner-f424865111f8.herokuapp.com")
+@CrossOrigin("*")
 public class UserController {
 
     private final UserService userService;

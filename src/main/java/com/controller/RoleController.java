@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/roles")
-@CrossOrigin("https://budget-planner-f424865111f8.herokuapp.com")
+@CrossOrigin("*")
 public class RoleController {
 
     private final RoleService roleService;
